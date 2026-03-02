@@ -1,0 +1,32 @@
+# Backend
+backend/node_modules/
+backend/.env
+backend/npm-debug.log*
+backend/yarn-debug.log*
+
+# Flutter
+task_manager_app/.dart_tool/
+task_manager_app/build/
+task_manager_app/.flutter-plugins
+task_manager_app/.flutter-plugins-dependencies
+task_manager_app/.packages
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+*.log
+
+# Exclude all docs and tests as requested
+*.txt
+*.md
+*.json
+*.ps1
+task_manager_app/test/
+.gemini/
